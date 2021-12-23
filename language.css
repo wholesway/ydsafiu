@@ -1,42 +1,120 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: auto;
 }
 
-.intro {
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: #ffffff;
-  transition: 1s;
+@font-face {
+  font-family: pro;
+  src: url(fonts/ROHH\ \ Akwe\ Pro\ Black.otf);
 }
 
-.logo-header {
+/* DIV OF DIV OF IMAGE */
+.main {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: block;
+  width: 100%;
 }
 
+/* DIV OF IMAGE*/
 .logo {
+  display: block;
   position: relative;
-  display: inline-block;
-  bottom: -20px;
-  opacity: 0;
 }
 
-.logo.active {
+/* BUTTONS */
+#language {
+  align-items: center;
+  background-color: #b6862c;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 2vw;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 2rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  display: inline-block;
+  position: relative;
+  width: 30%;
+}
+
+#language:hover,
+#language:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+#language:hover {
+  transform: translateY(-10px);
+}
+
+#language:active {
+  background-color: #b6862c;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+/* IMAGE */
+#whole {
+  width: 20%;
+}
+
+#whole.active {
   bottom: 0;
   opacity: 1;
-  transition: ease-in-out 0.5s;
+  transition: ease-in-out 1s;
 }
 
-.logo.fade {
-  bottom: 150px;
+/* YDSA */
+#name1 {
+  /* text */
+  text-align: center;
+  font-family: "pro";
+  font-size: 4vw;
+  color: #081e3f;
+}
+
+/* FIU */
+#name2 {
+  /* text */
+  text-align: center;
+  font-family: "pro";
+  font-size: 3vw;
+  color: #081e3f;
+}
+
+#buttons {
+  text-align: center;
+  margin: 5%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.whole_logo {
+  bottom: -100px;
   opacity: 0;
-  transition: ease-in-out 0.5s;
+  display: block;
+  position: relative;
+}
+
+.whole_logo.active {
+  bottom: 0;
+  opacity: 1;
+  transition: ease-in-out 1s;
 }
