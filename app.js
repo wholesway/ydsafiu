@@ -1,27 +1,12 @@
-let intro = document.querySelector('.intro');
-let logo = document.querySelector('.logo-header');
-let logoSpan = document.querySelectorAll('.logo');
+let wholeLogoDiv = document.querySelectorAll('.whole_logo');
 
 window.addEventListener('DOMContentLoaded', ()=>{
 
   setTimeout(()=>{
-    logoSpan.forEach((span, idx)=>{
+    wholeLogoDiv.forEach((div, idx)=>{
       setTimeout(()=>{
-        span.classList.add('active');
+        div.classList.add('active');
       }, (idx + 1) * 400)
     })
-
-    setTimeout(()=>{
-      logoSpan.forEach((span,idx)=>{
-        setTimeout(()=>{
-          span.classList.remove('active');
-          span.classList.add('fade');
-        }, (idx + 1) + 50)
-      })
-    }, 2000);
-
-    setTimeout(()=>{
-      intro.style.top = '-100vh';
-    }, 2300)
   })
 })
