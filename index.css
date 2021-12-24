@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: pro;
+  src: url(/fonts/ROHH\ \ Akwe\ Pro\ Black.otf);
+}
+
+/* DIV OF HEADER DIVS */
+.header {
+  /* position */
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* border */
+  border-style: solid;
+  border-color: aqua;
+}
+
+/* DIV OF IMAGE */
+.logo {
+  /* position */
+  width: 10%;
+  display: inline-block;
+  justify-content: center;
+  margin-right: 3%;
+  /* border */
+
+  border-color: black;
+}
+
+/* DIV OF TITLE */
+.title {
+  /* position */
+  justify-content: center;
+  display: table;
+  overflow: auto;
+  width: fit-content;
+  height: fit-content;
+  /* font */
+  font-family: "pro";
+  /* border */
+
+  border-color: brown;
+}
+
+/* IMAGE */
+#logopic {
+  /* position */
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* border
+  
+  border-color: blue; */
+}
+
+/* TEXT */
+#ydsa,
+#fiu {
+  /* position */
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 50%;
+  font-size: 3vw;
+  color: #081e3f;
+  /* border */
+
+  border-color: violet;
+}
