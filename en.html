@@ -21,6 +21,11 @@
   <link rel="stylesheet" href="index.css">
   <link rel="shortcut icon" type="image/png" href="/images/ydsa_star.png">
   <title>YDSA @ FIU - EN</title>
+  <style type="text/css">
+    a img {
+      width: 25%;
+    }
+  </style>
 </head>
 <body>
   <div class="header">
@@ -45,6 +50,18 @@
   <div class="join">
     <a href=""><button class="joinus">JOIN US!</button></a>
   </div>
+  <div id="instafeed-container"></div>
+  <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+  <script type="text/javascript">
+    var userFeed = new Instafeed({
+      get: 'user',
+      target: "instafeed-container",
+      resolution: 'low_resolution',
+      limit: 12,
+      accessToken: 'IGQVJYU1R6THFTaFJNMHRuSFA5RTl6QWZA1RlBkeXJOT3BoMVBVV1lmNU9xWXB5R3BObzhySFE5QU8tVXBPM09lR29oY042Vi1WS1M0X1RNdThnQ3NkM3B5NzRMaVQ4T0lNRm9NNkJyYXg4N2RhbndOSAZDZD'
+    });
+    userFeed.run();
+  </script>
   <script src="index.js"></script>
 </body>
 </html>
