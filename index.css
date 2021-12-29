@@ -96,6 +96,7 @@ html {
   justify-content: center;
   line-height: 1.25;
   min-height: 1rem;
+  margin: 0.2%;
   padding: calc(0.875rem - 1px) calc(1vh - 1px);
   text-decoration: none;
   transition: all 250ms;
@@ -179,4 +180,59 @@ html {
 
 .join {
   text-align: center;
+}
+
+#insta {
+  overflow: hidden;
+}
+
+#insta div {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s insta infinite;
+}
+
+#insta div img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes insta {
+  0% {
+    left: 0;
+  }
+
+  20% {
+    left: 0;
+  }
+
+  25% {
+    left: -100%;
+  }
+
+  45% {
+    left: -100%;
+  }
+
+  50% {
+    left: -200%;
+  }
+
+  70% {
+    left: -200%;
+  }
+
+  75% {
+    left: -300%;
+  }
+
+  95% {
+    left: -300%;
+  }
+
+  100% {
+    left: -400%;
+  }
 }
