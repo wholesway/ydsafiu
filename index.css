@@ -209,6 +209,7 @@ html {
   animation: 40s slider infinite;
   display: inline-block;
   vertical-align: middle;
+  margin-bottom: 10%;
 }
 
 #slider figure img {
@@ -223,6 +224,7 @@ html {
   width: 7%;
   display: block;
   margin: 2% auto;
+  transition: all 250ms;
 }
 
 #insta {
@@ -244,6 +246,29 @@ html {
   font-family: "pro";
   font-size: 3vw;
   color: #ffffff;
+  transition: all 250ms;
+}
+
+#igpic:hover,
+#igpic:focus,
+#igydsa:hover,
+#igydsa:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+#igpic:hover,
+#igydsa:hover {
+  transform: translateY(-5px);
+}
+
+#igpic:active,
+#igydsa:active {
+  background-color: #b6862c;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: #ffffff;
+  transform: translateY(0);
 }
 
 @keyframes slider {
