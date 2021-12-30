@@ -182,57 +182,120 @@ html {
   text-align: center;
 }
 
-#insta {
+#slider {
   overflow: hidden;
 }
 
-#insta div {
+#image_color {
+  width: 90%;
+  border-style: solid;
+  justify-self: center;
+  background-color: #081e3f;
+  border-radius: 1.25rem;
+  margin: auto;
+}
+
+#image_size {
+  width: 40%;
+  margin: 0 auto;
+  border-color: teal;
+}
+
+#slider figure {
   position: relative;
   width: 500%;
   margin: 0;
   left: 0;
-  animation: 20s insta infinite;
+  animation: 40s slider infinite;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-#insta div img {
+#slider figure img {
   width: 20%;
-  float: left;
+  margin: 0;
+  top: 50%;
+  vertical-align: middle;
+  border-radius: 1rem;
 }
 
-@keyframes insta {
+#igpic {
+  width: 7%;
+  display: block;
+  margin: 2% auto;
+}
+
+#insta {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.igtitle {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+#igydsa {
+  font-family: "pro";
+  font-size: 3vw;
+  color: #ffffff;
+}
+
+@keyframes slider {
   0% {
     left: 0;
   }
-
-  20% {
+  6.25% {
     left: 0;
   }
-
+  12.5% {
+    left: -100%;
+  }
+  18.75% {
+    left: -100%;
+  }
   25% {
-    left: -100%;
+    left: -200%;
   }
-
-  45% {
-    left: -100%;
+  31.25% {
+    left: -200%;
   }
-
+  37.5% {
+    left: -300%;
+  }
+  43.75% {
+    left: -300%;
+  }
   50% {
-    left: -200%;
-  }
-
-  70% {
-    left: -200%;
-  }
-
-  75% {
-    left: -300%;
-  }
-
-  95% {
-    left: -300%;
-  }
-
-  100% {
     left: -400%;
+  }
+  56.25% {
+    left: -400%;
+  }
+  62.5% {
+    left: -300%;
+  }
+  68.75% {
+    left: -300%;
+  }
+  75% {
+    left: -200%;
+  }
+  81.25% {
+    left: -200%;
+  }
+  87.5% {
+    left: -100%;
+  }
+  93.75% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
   }
 }
