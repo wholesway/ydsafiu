@@ -196,9 +196,8 @@ html {
 }
 
 #image_size {
-  width: 40%;
+  width: 35%;
   margin: 0 auto;
-  border-color: teal;
 }
 
 #slider figure {
@@ -323,4 +322,48 @@ html {
   100% {
     left: 0;
   }
+}
+
+#about {
+  display: block;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#ydsalogo2 {
+  width: 30%;
+  margin-left: auto;
+  margin-right: 10%;
+  float: right;
+  margin-top: 0%;
+}
+
+#aboutus {
+  width: 50%;
+  /* margin: 8%; */
+}
+
+#about h1 {
+  text-align: center;
+  font-family: "pro";
+  font-size: 3vw;
+  z-index: 500;
+  position: relative;
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+#aboutus p {
+  text-align: left;
+  width: 100%;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.75vw;
+  float: left;
+  margin-left: 15%;
 }
