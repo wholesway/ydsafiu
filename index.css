@@ -367,3 +367,41 @@ html {
   float: left;
   margin-left: 15%;
 }
+
+#our_programs {
+  text-align: center;
+  height: 100%;
+  width: 90%;
+  border-color: #081e3f;
+  border-width: thick;
+  border-radius: 4vh;
+  border-style: solid;
+  margin: auto;
+}
+
+#joinus2 {
+  margin-bottom: 3%;
+}
+
+#programs {
+  font-family: "pro";
+  font-size: 3vw;
+}
+
+#our_programs img {
+  width: 95%;
+}
+
+#our_programs div {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.6vw;
+  margin-top: -6%;
+  display: inline-block;
+  text-align: left;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 28%;
+  margin-bottom: 2%;
+}
