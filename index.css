@@ -405,3 +405,26 @@ html {
   width: 28%;
   margin-bottom: 2%;
 }
+
+#upcoming_events {
+  margin-top: 4%;
+  border-style: solid;
+  text-align: center;
+  border-radius: 4vh;
+  border-color: #98191c;
+  border-width: thick;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#upcoming_events h1 {
+  font-family: "pro";
+  font-size: 3vw;
+}
+
+#event_images {
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  margin-bottom: 4%;
+}
