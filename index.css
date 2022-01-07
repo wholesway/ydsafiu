@@ -427,6 +427,7 @@ html {
   font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   margin-bottom: 4%;
+  font-size: 1.6vw;
 }
 
 #membership_perks {
@@ -475,4 +476,228 @@ html {
 
 #joinus3 {
   margin-top: 2%;
+}
+
+#executive_board {
+  margin-top: 4%;
+  text-align: center;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+}
+
+#executive_board h1 {
+  font-family: "pro";
+  font-size: 3vw;
+}
+
+#adam img {
+  width: 25%;
+  float: right;
+  margin-right: 14vw;
+  border-radius: 1rem;
+  margin-top: 1.5vh;
+}
+
+#adam h2 {
+  margin-left: 24%;
+  float: left;
+  font-size: 3vw;
+}
+
+#adam h3 {
+  font-size: 100%;
+  margin-top: 10%;
+  margin-left: -27%;
+  font-size: 1.5vw;
+  float: left;
+}
+
+#adam {
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+#emma img {
+  width: 25%;
+  float: left;
+  margin-left: 13.5vw;
+  border-radius: 1rem;
+  margin-top: 1.5vh;
+}
+
+#emma h2 {
+  margin-right: 24%;
+  float: right;
+  font-size: 3vw;
+}
+
+#emma h3 {
+  font-size: 100%;
+  margin-top: 10%;
+  margin-right: -24%;
+  font-size: 1.5vw;
+  float: right;
+}
+
+#emma {
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+#jacob img {
+  width: 25%;
+  float: right;
+  margin-right: 14vw;
+  border-radius: 1rem;
+  margin-top: 1.5vh;
+}
+
+#jacob h2 {
+  margin-left: 15%;
+  float: left;
+  font-size: 3vw;
+}
+
+#jacob h3 {
+  font-size: 100%;
+  margin-top: 10%;
+  margin-left: -37%;
+  font-size: 1.5vw;
+  float: left;
+}
+
+#jacob {
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+#oscar img {
+  width: 25%;
+  float: left;
+  margin-left: 13.5vw;
+  border-radius: 1rem;
+  margin-top: 1.5vh;
+}
+
+#oscar h2 {
+  margin-right: 24%;
+  float: right;
+  font-size: 3vw;
+}
+
+#oscar h3 {
+  font-size: 100%;
+  margin-top: 10%;
+  margin-right: -19%;
+  font-size: 1.5vw;
+  float: right;
+}
+
+#oscar {
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+#robin img {
+  width: 25%;
+  float: right;
+  margin-right: 14vw;
+  border-radius: 1rem;
+  margin-top: 1.5vh;
+}
+
+#robin h2 {
+  margin-left: 23%;
+  float: left;
+  font-size: 3vw;
+}
+
+#robin h3 {
+  font-size: 100%;
+  margin-top: 10%;
+  margin-left: -29%;
+  font-size: 1.5vw;
+  float: left;
+}
+
+#robin {
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+#mauricio img {
+  width: 25%;
+  float: left;
+  margin-left: 13.5vw;
+  border-radius: 1rem;
+  margin-top: 1.5vh;
+}
+
+#mauricio h2 {
+  margin-right: 24%;
+  float: right;
+  font-size: 3vw;
+}
+
+#mauricio h3 {
+  font-size: 100%;
+  margin-top: 10%;
+  margin-right: -17.2%;
+  font-size: 1.5vw;
+  float: right;
+}
+
+#mauricio {
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+#josue img {
+  width: 25%;
+  float: right;
+  margin-right: 14vw;
+  border-radius: 1rem;
+  margin-top: 1.5vh;
+}
+
+#josue h2 {
+  margin-left: 23%;
+  float: left;
+  font-size: 3vw;
+}
+
+#josue h3 {
+  font-size: 100%;
+  margin-top: 10%;
+  margin-left: -28%;
+  font-size: 1.5vw;
+  float: left;
+}
+
+#josue {
+  display: inline-block;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  border-style: solid;
+  border-radius: 1rem;
 }
