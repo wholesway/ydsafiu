@@ -397,13 +397,13 @@ html {
     Arial, sans-serif;
   font-weight: normal;
   font-size: 1.6vw;
-  margin-top: -6%;
+  margin-top: 1%;
   display: inline-block;
   text-align: left;
   margin-left: 2%;
   margin-right: 2%;
   width: 28%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 #upcoming_events {
@@ -427,4 +427,52 @@ html {
   font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   margin-bottom: 4%;
+}
+
+#membership_perks {
+  margin-top: 4%;
+  border-style: solid;
+  text-align: center;
+  border-radius: 4vh;
+  border-color: #b6862c;
+  border-width: thick;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#membership_perks h1 {
+  font-family: "pro";
+  font-size: 3vw;
+}
+
+#discord_img {
+  width: 50%;
+  margin-top: 20%;
+  margin-bottom: 0%;
+}
+
+#whatsapp_img {
+  margin-top: 14%;
+  width: 50%;
+}
+
+#film_fridays_logo {
+  margin-top: 25%;
+  width: 100%;
+  margin-bottom: 20%;
+}
+
+#membership_perks span {
+  display: inline-block;
+  width: 30%;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+  margin-bottom: 5%;
+}
+
+#joinus3 {
+  margin-top: 2%;
 }
