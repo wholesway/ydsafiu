@@ -479,7 +479,7 @@ html {
 }
 
 #executive_board {
-  margin-top: 4%;
+  margin-top: 10%;
   text-align: center;
   width: 90%;
   margin-right: auto;
@@ -491,27 +491,28 @@ html {
   font-family: "pro";
   font-size: 3vw;
 }
-
 #adam img {
   width: 25%;
   float: right;
   margin-right: 14vw;
-  border-radius: 1rem;
+  border-radius: 50%;
   margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
 }
 
 #adam h2 {
-  margin-left: 24%;
+  margin-left: 20.5vw;
+  margin-top: 10%;
   float: left;
   font-size: 3vw;
 }
 
 #adam h3 {
-  font-size: 100%;
-  margin-top: 10%;
-  margin-left: -27%;
+  margin-top: 15%;
+  margin-left: -11vw;
   font-size: 1.5vw;
   float: left;
+  font-weight: normal;
 }
 
 #adam {
@@ -519,29 +520,34 @@ html {
   font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   border-style: solid;
-  border-radius: 1rem;
+  border-width: thick;
+  border-radius: 50vw;
+  width: 100%;
 }
 
 #emma img {
   width: 25%;
   float: left;
-  margin-left: 13.5vw;
-  border-radius: 1rem;
+  margin-left: 14vw;
+  border-radius: 50%;
   margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
 }
 
 #emma h2 {
-  margin-right: 24%;
+  margin-right: 20.75vw;
   float: right;
   font-size: 3vw;
+  margin-top: 10%;
 }
 
 #emma h3 {
-  font-size: 100%;
-  margin-top: 10%;
-  margin-right: -24%;
+  font-size: 1.5vw;
+  margin-top: 15%;
+  margin-right: -15vw;
   font-size: 1.5vw;
   float: right;
+  font-weight: normal;
 }
 
 #emma {
@@ -549,29 +555,33 @@ html {
   font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   border-style: solid;
-  border-radius: 1rem;
+  border-width: thick;
+  border-radius: 50vw;
+  width: 100%;
 }
 
 #jacob img {
   width: 25%;
   float: right;
   margin-right: 14vw;
-  border-radius: 1rem;
+  border-radius: 50%;
   margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
 }
 
 #jacob h2 {
-  margin-left: 15%;
+  margin-left: 13.75vw;
+  margin-top: 10%;
   float: left;
   font-size: 3vw;
 }
 
 #jacob h3 {
-  font-size: 100%;
-  margin-top: 10%;
-  margin-left: -37%;
+  margin-top: 15%;
+  margin-left: -24vw;
   font-size: 1.5vw;
   float: left;
+  font-weight: normal;
 }
 
 #jacob {
@@ -579,29 +589,34 @@ html {
   font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   border-style: solid;
-  border-radius: 1rem;
+  border-width: thick;
+  border-radius: 50vw;
+  width: 100%;
 }
 
 #oscar img {
   width: 25%;
   float: left;
-  margin-left: 13.5vw;
-  border-radius: 1rem;
+  margin-left: 14vw;
+  border-radius: 50%;
   margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
 }
 
 #oscar h2 {
-  margin-right: 24%;
+  margin-right: 24.5%;
   float: right;
   font-size: 3vw;
+  margin-top: 10%;
 }
 
 #oscar h3 {
-  font-size: 100%;
-  margin-top: 10%;
-  margin-right: -19%;
+  font-size: 1.5vw;
+  margin-top: 15%;
+  margin-right: -17.5%;
   font-size: 1.5vw;
   float: right;
+  font-weight: normal;
 }
 
 #oscar {
@@ -609,29 +624,33 @@ html {
   font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   border-style: solid;
-  border-radius: 1rem;
+  border-width: thick;
+  border-radius: 50vw;
+  width: 100%;
 }
 
 #robin img {
   width: 25%;
   float: right;
   margin-right: 14vw;
-  border-radius: 1rem;
+  border-radius: 50%;
   margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
 }
 
 #robin h2 {
-  margin-left: 23%;
+  margin-left: 20.5vw;
+  margin-top: 10%;
   float: left;
   font-size: 3vw;
 }
 
 #robin h3 {
-  font-size: 100%;
-  margin-top: 10%;
-  margin-left: -29%;
+  margin-top: 15%;
+  margin-left: -15vw;
   font-size: 1.5vw;
   float: left;
+  font-weight: normal;
 }
 
 #robin {
@@ -639,29 +658,34 @@ html {
   font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   border-style: solid;
-  border-radius: 1rem;
+  border-width: thick;
+  border-radius: 50vw;
+  width: 100%;
 }
 
 #mauricio img {
   width: 25%;
   float: left;
-  margin-left: 13.5vw;
-  border-radius: 1rem;
+  margin-left: 14vw;
+  border-radius: 50%;
   margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
 }
 
 #mauricio h2 {
-  margin-right: 24%;
+  margin-right: 22%;
   float: right;
   font-size: 3vw;
+  margin-top: 10%;
 }
 
 #mauricio h3 {
-  font-size: 100%;
-  margin-top: 10%;
-  margin-right: -17.2%;
+  font-size: 1.5vw;
+  margin-top: 15%;
+  margin-right: -16%;
   font-size: 1.5vw;
   float: right;
+  font-weight: normal;
 }
 
 #mauricio {
@@ -669,29 +693,33 @@ html {
   font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   border-style: solid;
-  border-radius: 1rem;
+  border-width: thick;
+  border-radius: 50vw;
+  width: 100%;
 }
 
 #josue img {
   width: 25%;
   float: right;
   margin-right: 14vw;
-  border-radius: 1rem;
+  border-radius: 50%;
   margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
 }
 
 #josue h2 {
-  margin-left: 23%;
+  margin-left: 20.5vw;
+  margin-top: 10%;
   float: left;
   font-size: 3vw;
 }
 
 #josue h3 {
-  font-size: 100%;
-  margin-top: 10%;
-  margin-left: -28%;
+  margin-top: 15%;
+  margin-left: -16.5vw;
   font-size: 1.5vw;
   float: left;
+  font-weight: normal;
 }
 
 #josue {
@@ -699,5 +727,7 @@ html {
   font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
     Arial, sans-serif;
   border-style: solid;
-  border-radius: 1rem;
+  border-width: thick;
+  border-radius: 50vw;
+  width: 100%;
 }
