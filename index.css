@@ -189,6 +189,7 @@ html {
 #image_color {
   width: 90%;
   border-style: solid;
+  border-color: #081e3f;
   justify-self: center;
   background-color: #081e3f;
   border-radius: 1.25rem;
