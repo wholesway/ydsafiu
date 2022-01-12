@@ -197,8 +197,9 @@ html {
 }
 
 #gbm1 {
-  width: 45%;
+  width: 40%;
   border-radius: 5%;
+  margin-bottom: 2%;
 }
 
 #image_size {
