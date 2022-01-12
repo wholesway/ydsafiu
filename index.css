@@ -196,6 +196,10 @@ html {
   margin: auto;
 }
 
+#gbm1 {
+  width: 60%;
+}
+
 #image_size {
   width: 35%;
   margin: 0 auto;
