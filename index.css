@@ -202,6 +202,13 @@ html {
   margin-bottom: 2%;
 }
 
+#tabling {
+  width: 40%;
+  margin-bottom: 2%;
+  border-radius: 5%;
+  margin-left: 5%;
+}
+
 #image_size {
   width: 35%;
   margin: 0 auto;
