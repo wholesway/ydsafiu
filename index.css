@@ -197,16 +197,23 @@ html {
 }
 
 #gbm1 {
-  width: 40%;
+  width: 29%;
   border-radius: 5%;
   margin-bottom: 2%;
 }
 
-#tabling {
-  width: 40%;
+#mix {
+  width: 29%;
   margin-bottom: 2%;
   border-radius: 5%;
-  margin-left: 5%;
+  margin-left: 3%;
+}
+
+#real {
+  width: 29%;
+  margin-bottom: 2%;
+  border-radius: 5%;
+  margin-left: 3%;
 }
 
 #image_size {
@@ -223,6 +230,13 @@ html {
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 10%;
+}
+
+#rsvp {
+  margin-top: -2%;
+  font-family: "pro";
+  width: 100%;
+  font-size: 2vw;
 }
 
 #slider figure img {
