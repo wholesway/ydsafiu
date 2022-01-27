@@ -19,6 +19,28 @@ html {
   border-color: aqua;
 }
 
+.auto-resizable-iframe {
+  max-width: 80%;
+  margin: 0px auto;
+  margin-bottom: 2%;
+  margin-top: 1%;s
+}
+
+.auto-resizable-iframe > div {
+  position: relative;
+  padding-bottom: 60%;
+  height: 0px;
+}
+
+.auto-resizable-iframe iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
 /* DIV OF IMAGE */
 .logo {
   /* position */
@@ -49,7 +71,7 @@ html {
 /* IMAGE */
 #logopic {
   /* position */
-  width: 100%;
+  width: 90%;
   height: 100%;
   display: block;
   /* border
