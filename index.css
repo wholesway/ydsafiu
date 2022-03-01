@@ -457,6 +457,30 @@ html {
   margin-bottom: 5%;
 }
 
+#donate{
+  text-align: center;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 4vh;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  border-color: #081e3f;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,Arial, sans-serif;
+  line-height: 2em;
+}
+
+#child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#child img{
+  
+}
+
 #upcoming_events {
   margin-top: 4%;
   border-style: solid;
